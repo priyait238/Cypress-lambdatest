@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install
+        - npm ci
     build:
       commands:
         - npm run build
@@ -24,9 +24,9 @@ test:
   phases:
     preTest:
       commands:
-        - npm install
-        - npm install wait-on
-        - npm install mocha mochawesome mochawesome-merge mochawesome-report-generator
+        - npm ci
+        - npm ci wait-on
+        - npm ci mocha mochawesome mochawesome-merge mochawesome-report-generator
         - "npm start & npx wait-on http://127.0.0.1:8080"
     test:
       commands:

@@ -57,7 +57,7 @@ Before we get started, make sure to clone the LambdaTest Cypress Cloud Repo. You
   You need to install the **LambdaTest-Cypress CLI** package with the help of npm, using the below command:
 
   ```bash
-  npm install -g lambdatest-cypress-cli
+  npm ci -g lambdatest-cypress-cli
   ```
 
 - **Step 3: Setup configurations on which you want to run your test -**

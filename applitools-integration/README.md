@@ -11,7 +11,7 @@ You can download or clone the sample GitHub project from the following repo - [C
 - Install the **NPM dependencies** using the below command:
 
   ```bash
-  npm install
+  npm ci
   ```
 
 - Set up **Applitools Eyes** using the below command:
@@ -31,7 +31,7 @@ You can download or clone the sample GitHub project from the following repo - [C
 - Install Applitools Eyes dependencies using the below command:
 
   ```bash
-  npm install @applitools/eyes-cypress --save-dev
+  npm ci @applitools/eyes-cypress --save-dev
   ```
 
   > It will create Applitools Eyes to an Existing Node.js Cypress Project.
@@ -43,7 +43,7 @@ You can download or clone the sample GitHub project from the following repo - [C
 - Install the LambdaTest CLI using below command:
 
   ```bash
-  npm install -g lambdatest-cypress-cli
+  npm ci -g lambdatest-cypress-cli
   ```
 
 - Setup configurations on which you want to run your test using the below command:

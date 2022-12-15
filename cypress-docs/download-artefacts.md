@@ -16,7 +16,7 @@ Assuming that you have run a Cypress test on LambdaTest platform ( if not, this 
 Before getting started, you would have to update the **lambdatest-cypress cli** using the command below:
 
 ```bash
-npm install -g lambdatest-cypress-cli
+npm ci -g lambdatest-cypress-cli
 ```
 
 ### Add downloads Capability

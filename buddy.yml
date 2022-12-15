@@ -10,7 +10,7 @@
       docker_image_name: "cypress/base"
       docker_image_tag: "latest"
       execute_commands:
-        - "npm install --force"
+        - "npm ci --force"
         - "npm run cy:verify"
         - "npm run start:ci &"
         - "npm run cy:run"

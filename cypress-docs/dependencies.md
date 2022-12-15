@@ -19,7 +19,7 @@ Assuming that you have run a Cypress test on LambdaTest platform. If not, refer 
 - Before getting started, you would have to update the **lambdatest-cypress cli** using the command below:
 
 ```bash
-npm install -g lambdatest-cypress-cli
+npm ci -g lambdatest-cypress-cli
 ```
 
 - The CLI version should be the latest i.e. is 2.3.0. You can check the CLI version by running the below command.

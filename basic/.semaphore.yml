@@ -21,7 +21,7 @@ blocks:
         - name: npm ci and cache
           commands:
             - nvm install 12
-            - npm install -g npm
+            - npm ci -g npm
             - checkout
 
             # restore previously cached files if any
