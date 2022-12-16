@@ -11,14 +11,14 @@ describe('Test Scenario 2', () => {
     cy.viewport('samsung-note9')
   })
 
-  it('Scenario2', () => {
+  it('Navigate to the Form', () => {
     cy.title().should('contain', 'Selenium Grid Online')
     cy.get('.st_heading:first').should('be.visible').should('have.text', ' Input Forms')
     cy.contains('Input Form Submit').should('be.visible').click()
     cy.get('#seleniumform').scrollIntoView()
   })
 
-  it('Fill form details', function () {
+  it('Enter form details', function () {
     let username = Chance().name()
     let email = Chance().email()
     let password = Chance().string()
