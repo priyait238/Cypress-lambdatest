@@ -5,15 +5,15 @@
    },
    "browsers": [
       {
-         "browser": "Chrome",
+         "browser": "Firefox",
          "platform": "Windows 10",
          "versions": [
             "latest-1"
          ]
       },
       {
-         "browser": "Firefox",
-         "platform": "Windows 7",
+         "browser": "Chrome",
+         "platform": "Windows 10",
          "versions": [
             "latest-1"
          ]
@@ -22,7 +22,7 @@
    "run_settings": {
       "cypress_config_file": "cypress.json",
       "reporter_config_file": "base_reporter_config.json",
-      "build_name": "Cypress lambdatest",
+      "build_name": "Lambdatest",
       "parallels": 1,
       "specs": "./cypress/integration/*.spec.js",
       "ignore_files": "",
