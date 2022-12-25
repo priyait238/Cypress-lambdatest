@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "<img height=\"500\" class =\"centre\" src=\"https://user-images.githubusercontent.com/70570645/171032160-65d8a2c3-e04b-482d-b1c6-538b75be5fb0.png\">",
+  "main": "custom_support_file.js",
+  "dependencies": {
+    "axe-core": "4.4.2",
+    "chance": "1.1.9",
+    "cypress-audit": "1.1.0",
+    "cypress-axe": "0.14.0",
+    "cypress-lighthouse": "0.1.0",
+    "cypress-xpath": "2.0.1",
+    "lambdatest-cypress-cli": "3.0.1"
+  },
+  "devDependencies": {
+    "cypress": "9.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyait238/cypress-certification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyait238/cypress-certification/issues"
+  },
+  "homepage": "https://github.com/priyait238/cypress-certification#readme"
+}
